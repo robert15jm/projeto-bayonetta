@@ -1,0 +1,35 @@
+body {
+    background-color: white ;
+    color:rgb(57, 4, 4);
+    font-family: "Audiowide", sans-serif;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1500px;
+    margin: 0;
+}
+
+button{
+    background-color: rgb(57, 4, 4);
+    font-family: "Bodoni Moda", serif;
+    font-size: medium;
+    color: azure;
+}
+
+.passo{
+    display: none;
+}
+
+.passo.ativo{
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
